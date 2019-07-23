@@ -148,11 +148,17 @@ END full_adder;
 - - 计数器（Counter）
 
 ### 部件定义（Component）和部件映像（Port Map）
+## 综合（logic synthesis）
+> 定义：用HDL进行电路的高级抽象（通常是数字电路寄存器传输级的数据、行为）描述数字电路的逻辑功能，经过布尔函数化简、优化后，转换到的逻辑门级别的实际电路连线网表的过程。简单来说，综合就是把Verilog/HDL语言/原理图转换为综合网表的过程。
 ## 参考文献
 1. [VHDL 语法总结](https://allansheng.wordpress.com/2018/07/11/vhdl-%E8%AF%AD%E6%B3%95%E6%80%BB%E7%BB%93/)
 2. [VHDL 语言的常用语法 ](http://www.go-gddq.com/down/2011-07/11071222382580.pdf)
 3. [从Verilog到VHDL：基本语法](https://www.cnblogs.com/ifys/archive/2010/09/10/1860615.html)
 4. [vhdl入门(一)-vhdl的代码结构](https://blog.csdn.net/weixin_38071135/article/details/82357023)
+5. [Verilog/VHDL语法学习是掌握基本代码设计的技能以及经验总结](http://m.elecfans.com/article/605163.html)
+6. [逻辑综合 - 中文维基百科](https://wikipedia.tk.gugeeseo.com/zh-hans/%E9%80%BB%E8%BE%91%E7%BB%BC%E5%90%88)
+7. [介绍FPGA的综合](https://blog.csdn.net/jeakon/article/details/9493835)
+8. [fpga开发的疑问？（关于高层次综合）](https://www.zhihu.com/question/24898211/answer/29791473)
 ## FPGA相关术语
 
 | 逻辑电路 | 组合（逻辑）电路                                             | 时序（逻辑）电路                                             |
