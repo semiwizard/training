@@ -148,7 +148,11 @@ END full_adder;
 - - 计数器（Counter）
 
 ### 部件定义（Component）和部件映像（Port Map）
-
+## 参考文献
+1. [VHDL 语法总结](https://allansheng.wordpress.com/2018/07/11/vhdl-%E8%AF%AD%E6%B3%95%E6%80%BB%E7%BB%93/)
+2. [VHDL 语言的常用语法 ](http://www.go-gddq.com/down/2011-07/11071222382580.pdf)
+3. [从Verilog到VHDL：基本语法](https://www.cnblogs.com/ifys/archive/2010/09/10/1860615.html)
+4. [vhdl入门(一)-vhdl的代码结构](https://blog.csdn.net/weixin_38071135/article/details/82357023)
 ## FPGA相关术语
 
 | 逻辑电路 | 组合（逻辑）电路                                             | 时序（逻辑）电路                                             |
