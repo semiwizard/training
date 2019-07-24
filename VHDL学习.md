@@ -170,8 +170,9 @@ END full_adder;
 - 二者最本质的区别是时序电路有记忆功能；
 
 ![时序逻辑电路](https://wikipedia.tk.gugeeseo.com/baike-File:Sxdl.jpg)
-### 时序图
+### 时序波形图
 
 ## 参考文献
 1. [时序逻辑电路 - 维基百科](https://wikipedia.tk.gugeeseo.com/baike-%E6%97%B6%E5%BA%8F%E9%80%BB%E8%BE%91%E7%94%B5%E8%B7%AF)
-[串行 - 维基百科](https://wikipedia.tk.gugeeseo.com/wiki/%E4%B8%B2%E8%A1%8C)
+2. [串行 - 维基百科](https://wikipedia.tk.gugeeseo.com/wiki/%E4%B8%B2%E8%A1%8C)
+3. [数字电路学不好？是因为你不懂时序！ ](http://www.sohu.com/a/120944023_488169)
