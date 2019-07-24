@@ -69,4 +69,5 @@
 ## 参考文献
 1. [Vim--中文维基百科](https://wikipedia.tk.gugeeseo.com/wiki/Gvim)
 2. [gvim常用命令](https://blog.csdn.net/randyfeng007/article/details/6581302)
-[GVIM同VIM的区别](https://blog.csdn.net/xiaolei05/article/details/19755083)
+3. [GVIM同VIM的区别](https://blog.csdn.net/xiaolei05/article/details/19755083)
+4. 
