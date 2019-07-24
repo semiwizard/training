@@ -173,4 +173,5 @@ END full_adder;
 ### 时序图
 
 ## 参考文献
-1. [时序逻辑电路--中文维基百科](https://wikipedia.tk.gugeeseo.com/baike-%E6%97%B6%E5%BA%8F%E9%80%BB%E8%BE%91%E7%94%B5%E8%B7%AF)
+1. [时序逻辑电路 - 维基百科](https://wikipedia.tk.gugeeseo.com/baike-%E6%97%B6%E5%BA%8F%E9%80%BB%E8%BE%91%E7%94%B5%E8%B7%AF)
+[串行 - 维基百科](https://wikipedia.tk.gugeeseo.com/wiki/%E4%B8%B2%E8%A1%8C)
