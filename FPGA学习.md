@@ -164,6 +164,7 @@ END full_adder;
 7. [介绍FPGA的综合](https://blog.csdn.net/jeakon/article/details/9493835)
 8. [fpga开发的疑问？（关于高层次综合）](https://www.zhihu.com/question/24898211/answer/29791473)
 9. [VHDL中信号与变量的区别及赋值的讨论](https://blog.csdn.net/oier_xcj/article/details/78244474)
+10. [VHDL - 维基百科](https://wikipedia.tk.gugeeseo.com/baike-VHDL)
 ## FPGA相关术语
 
 | 逻辑电路 | 组合（逻辑）电路                                             | 时序（逻辑）电路                                             |
@@ -174,10 +175,19 @@ END full_adder;
 - 二者最本质的区别是时序电路有记忆功能；
 
 ![时序逻辑电路](https://wikipedia.tk.gugeeseo.com/baike-File:Sxdl.jpg)
+
+### 
+- 逻辑仿真
+- 逻辑综合
 ### 时序波形图
+- GND   在电子电路理论里，接地通常被理想化为一个无穷电荷电源或电荷吸收槽，可以无限制的吸收电流，同时保持电位不变。
+- VCC   接入电路的电压
 
 ## 参考文献
 1. [时序逻辑电路 - 维基百科](https://wikipedia.tk.gugeeseo.com/baike-%E6%97%B6%E5%BA%8F%E9%80%BB%E8%BE%91%E7%94%B5%E8%B7%AF)
 2. [串行 - 维基百科](https://wikipedia.tk.gugeeseo.com/wiki/%E4%B8%B2%E8%A1%8C)
 3. [数字电路学不好？是因为你不懂时序！ ](http://www.sohu.com/a/120944023_488169)
 4. [半导体IP核 - 维基百科](https://wikipedia.tk.gugeeseo.com/zh-hans/%E5%8D%8A%E5%AF%BC%E4%BD%93IP%E6%A0%B8)
+5. [数字电路 - 维基百科](https://wikipedia.tk.gugeeseo.com/baike-%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF)
+6. [集成电路 - 维基百科](https://wikipedia.tk.gugeeseo.com/baike-%E6%95%B8%E4%BD%8D%E9%9B%BB%E8%B7%AF)
+7. [真值表 - 维基百科](https://wikipedia.tk.gugeeseo.com/baike-%E7%9C%9F%E5%80%BC%E8%A1%A8)
