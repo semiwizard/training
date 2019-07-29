@@ -69,7 +69,7 @@
 ### Ex模式
 - 这和命令行模式比较相似，在使用":visual"命令离开Ex模式前，可以一次执行多条命令。
 ## 参考文献
-1. [Vim--中文维基百科](https://wikipedia.tk.gugeeseo.com/wiki/Gvim)
+1. [Vim - 维基百科](https://zh.wikipedia.org/zh-hans/Gvim)
 2. [gvim常用命令](https://blog.csdn.net/randyfeng007/article/details/6581302)
 3. [GVIM同VIM的区别](https://blog.csdn.net/xiaolei05/article/details/19755083)
 4. 
