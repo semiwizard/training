@@ -1,4 +1,21 @@
 ## Verilog语言
+- 实例调用
+- 命名端口连接
+```
+module tester;
+reg [1:0] SELECT;
+reg IN0, IN1, IN2, IN3;
+wire OUT;
+// 
+mux my_mux1 (OUT, SELECT, IN0, IN1, IN2, IN3); //实例调用mux模块
+mux my_mux2 (.out(OUT), .select(SELECT), .in0(IN0), .in1(IN1), .in2(IN2), .in3(IN3));
+//使用命名端口连接，括号外面是模块声明时的端口，括号内是实际的端口连接
+//.形参(实参)
+initial //需要仿真的激励代码
+  begin
+  end
+endmodule
+```
 ## 参考文献
 1. [Verilog学习笔记基本语法篇（一）·········数据类型](https://www.cnblogs.com/SYoong/p/5849168.html)
 2. [Verilog基础语法](https://blog.csdn.net/zhangshuaiisme/article/details/78993582)
