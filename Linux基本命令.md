@@ -68,6 +68,7 @@
 - `ctrl + n/p`  自动补全
 ### Ex模式
 - 这和命令行模式比较相似，在使用":visual"命令离开Ex模式前，可以一次执行多条命令。
+
 ## 参考文献
 1. [Vim - 维基百科](https://zh.wikipedia.org/zh-hans/Gvim)
 2. [gvim常用命令](https://blog.csdn.net/randyfeng007/article/details/6581302)
