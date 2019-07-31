@@ -36,18 +36,18 @@ mkdir -p BBB/Test
 - `%` 向前查找
 - `n`  下一个
 - `N`  上一个
-#### 替换
 ### 插入模式
 - `dd` 剪切
 - `p/P` 在光标后/前粘贴
 - `y` 复制
 - 大多数按键都会向文本缓冲区中插入文本。
+#### 替换
 - `s` switch替换
 - `g` global全局
 - `%` 每行的第一个位置
 - `:%s/src/dst/g` 将全文所有的 src 替换为 dst
 - ~~`:s/src/dst`  将本行的第一个 src 替换为 dst~~
-- ~~`:s/src/dst/g`  将本行的所有 src 替换为 dst~~
+- `:s/src/dst/g`  将本行的所有 src 替换为 dst，使用`&`重复文本替换
 ### 可视模式
 - 移动命令会扩大高亮的文本区域。高亮区域可以是字符、行或者是一块文本。
 - 当执行一个非移动命令时，命令会被执行到这块高亮的区域上。
@@ -81,4 +81,4 @@ mkdir -p BBB/Test
 1. [Vim - 维基百科](https://zh.wikipedia.org/zh-hans/Gvim)
 2. [gvim常用命令](https://blog.csdn.net/randyfeng007/article/details/6581302)
 3. [GVIM同VIM的区别](https://blog.csdn.net/xiaolei05/article/details/19755083)
-4. 
+4. [https://blog.csdn.net/ii1245712564/article/details/46496347](https://blog.csdn.net/ii1245712564/article/details/46496347)
