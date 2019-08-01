@@ -92,6 +92,7 @@ tup2 = (20,) # 一个元素，需要在元素后添加逗号
   一个模块被另一个程序第一次引入时，其主程序将运行。如果想在模块被引入时，模块中的某一程序块不执行，可以用__name__属性来使该程序块仅在该模块自身运行时执行。每个模块都有一个__name__属性，当其值是'__main__'时，表明该模块自身在运行，否则是被引入。
 ## 输入和输出
 ## 文件
+- 
 ## 面向对象
 ## 其他
 - `-h`参数查看各参数帮助信息
@@ -101,3 +102,6 @@ sys.exit() 会抛出SystemExit异常，如果没有被捕获，python解释器�
 
 ## 参考文献
 1. [Python3菜鸟教程](https://www.runoob.com/python3/python3-tutorial.html)
+2. [向python脚本传递参数的方法](https://blog.csdn.net/BabyFish13/article/details/53769525)
+3. [Python逐行读取文件内容的三种方法](https://www.cnblogs.com/dcc001/p/5705438.html)
+4. [python逐行读写txt文件](https://blog.csdn.net/matrix_google/article/details/76861485)
