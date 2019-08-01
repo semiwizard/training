@@ -1,7 +1,17 @@
+## 通配符
+## 打包/压缩
+```
+# tar -zxvf Python-3.6.1.tgz
+# cd Python-3.6.1
+# ./configure
+# make && make install
+```
+## bash
+## shell
 ## 文件
 - `mv A B`  将A移动到B位置/名字
+- `cp [-R] Source .`  复制目录到当前路径
 - `&` 连接命令
-
 ```
 // 在工作目录下的 BBB 目录中，建立一个名为 Test 的子目录。 若 BBB 目录原本不存在，则建立一个。（注：本例若不加 -p，且原本 BBB目录不存在，则产生错误。）
 mkdir -p BBB/Test
