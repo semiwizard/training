@@ -200,7 +200,15 @@ END full_adder;
 ### 时序波形图
 - GND   在电子电路理论里，接地通常被理想化为一个无穷电荷电源或电荷吸收槽，可以无限制的吸收电流，同时保持电位不变。
 - VCC   接入电路的电压
-
+### 封装
+- Quad Flat Pack 塑料方形扁平封装
+- - Low profile QFP 100 144 薄型QFP
+- Ball Grid Array 球栅阵列封装
+- - Micro BGA 160 微型BGA
+- - Plastic BGA 256 256M 塑料BGA
+- Quad Flat Non-leaded Package 32 42 88 四侧（方形）无引脚扁平封装
+- Wafer-Level Chip Scale Package 晶圆级芯片尺寸封装
+- Dual In-Line Package 双侧直插封装
 ## 参考文献
 1. [时序逻辑电路 - 维基百科](https:/zh.wikipedia.org/zh-hans/%E6%97%B6%E5%BA%8F%E9%80%BB%E8%BE%91%E7%94%B5%E8%B7%AF)
 2. [串行 - 维基百科](https://zh.wikipedia.org/zh-hans/%E4%B8%B2%E8%A1%8C)
