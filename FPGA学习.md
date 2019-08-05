@@ -218,3 +218,4 @@ END full_adder;
 6. [集成电路 - 维基百科](https://zh.wikipedia.org/zh-hans/%E6%95%B8%E4%BD%8D%E9%9B%BB%E8%B7%AF)
 7. [真值表 - 维基百科](https://zh.wikipedia.org/zh-hans/%E7%9C%9F%E5%80%BC%E8%A1%A8)
 8. [逻辑门 - 维基百科](https://zh.wikipedia.org/zh-hans/%E9%80%BB%E8%BE%91%E9%97%A8)
+9. [IC封装原理及功能特性](https://zhuanlan.zhihu.com/p/66113859)
