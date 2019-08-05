@@ -203,10 +203,11 @@ END full_adder;
 ### 封装
 - Quad Flat Pack 塑料方形扁平封装
 - - Low profile QFP 100 144 薄型QFP
+- Quad Flat Non-leaded Package 32 42 88 四侧（方形）无引脚扁平封装
 - Ball Grid Array 球栅阵列封装
 - - Micro BGA 160 微型BGA
+- - Ultra BGA 增强型BGA
 - - Plastic BGA 256 256M 塑料BGA
-- Quad Flat Non-leaded Package 32 42 88 四侧（方形）无引脚扁平封装
 - Wafer-Level Chip Scale Package 晶圆级芯片尺寸封装
 - Dual In-Line Package 双侧直插封装
 ## 参考文献
