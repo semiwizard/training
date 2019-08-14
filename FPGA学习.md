@@ -4,23 +4,48 @@
 ```
 module tester;
 reg [1:0] SELECT;
-reg IN0, IN1, IN2, IN3;
+reg IN0;
 wire OUT;
-// 
-mux my_mux1 (OUT, SELECT, IN0, IN1, IN2, IN3); //实例调用mux模块
-mux my_mux2 (.out(OUT), .select(SELECT), .in0(IN0), .in1(IN1), .in2(IN2), .in3(IN3));
-//使用命名端口连接，括号外面是模块声明时的端口，括号内是实际的端口连接
-//.形参(实参)
-initial //需要仿真的激励代码
+// 实例调用mux模块方法一
+mux my_mux1 (OUT, SELECT, IN0); 
+//使用命名端口调用实例，括号外面是模块声明时的端口，括号内是实际的端口连接
+mux my_mux2 (.out(OUT), .select(SELECT), .in0(IN0)); //.形参(实参)
+// 需要仿真的激励代码
+initial
   begin
   end
 endmodule
 ```
 ### 数据类型
+```
+module test(out, in);
+  output [wire] out;
+  input reg in;
+endmodule
+```
 - 连线型（Net）
-- - wire，默认初始值为高阻态“Z”
+- - wire，默认初始值为高阻态“Z”，端口隐含声明
 - 寄存器型（Register）
 - - reg，默认初始值为不定态“X”
+- - reg 指一个储存数值的变量，寄存器类型变量与真实的硬件寄存器不同。
+- - integer
+- - time
+- - real
+- 向量
+- 数组
+- 参数
+### 流程控制
+- 选择结构
+- - casex，将条件数值中的x、z均作为无关值
+- - casez，仅将z作为无关值
+- 循环结构
+- - forever，用于无限循环
+- - repeat，用于指定次数循环
+### 运算符
+- 缩减：`&(4'b1011) = 0`
+- 求幂：`2**4 = 16`
+- 拼接：`{2'b10,2'b11} = a'b1011`
+- 重复：`{2{2'b01}} = 4'b0101`
 ### 赋值
 |  | 持续赋值 | 过程赋值 | 过程持续赋值 |
 | -------- | ------- | ------- | ------ |
@@ -250,5 +275,4 @@ END full_adder;
 5. [数字电路 - 维基百科](https://zh.wikipedia.org/zh-hans/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF)
 6. [集成电路 - 维基百科](https://zh.wikipedia.org/zh-hans/%E6%95%B8%E4%BD%8D%E9%9B%BB%E8%B7%AF)
 7. [真值表 - 维基百科](https://zh.wikipedia.org/zh-hans/%E7%9C%9F%E5%80%BC%E8%A1%A8)
-8. [逻辑门 - 维基百科](https://zh.wikipedia.org/zh-hans/%E9%80%BB%E8%BE%91%E9%97%A8)
-9. [IC封装原理及功能特性](https://zhuanlan.zhihu.com/p/66113859)
+8. [逻辑门 - 维基百科](https://zh.wikipedia.org/zh-hans/%E9%80%BB%E8%BE%91%E
