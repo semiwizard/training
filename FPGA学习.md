@@ -16,9 +16,20 @@ initial //需要仿真的激励代码
   end
 endmodule
 ```
+### 赋值
+
+#### 持续赋值
+-  语法上，必须有assign关键字标识；
+- 用于对线网赋值，等价于门级描述；
+- 不能出现在过程块（initial / always）中；
+- 产生作用后，赋值表达式中信号的任何变化都会立即反映到左值线网型数据中；
+#### 过程赋值
+- 阻塞赋值
+- 非阻塞赋值
 ## 参考文献
 1. [Verilog学习笔记基本语法篇（一）·········数据类型](https://www.cnblogs.com/SYoong/p/5849168.html)
 2. [Verilog基础语法](https://blog.csdn.net/zhangshuaiisme/article/details/78993582)
+3. [Verilog赋值语句](https://blog.csdn.net/firstlai/article/details/52712042)
 
 ## VHDL语言
 
