@@ -26,11 +26,10 @@ endmodule
 - 连线型（Net）
 - - wire，默认初始值为高阻态“Z”，端口隐含声明
 - 寄存器型（Register）
-- - reg，默认初始值为不定态“X”
-- - reg 指一个储存数值的变量，寄存器类型变量与真实的硬件寄存器不同。
-- - integer
-- - time
-- - real
+- - reg：常用的寄存器型变量，默认初始值为不定态“X”，如触发器、寄存器等。reg 指一个储存数值的变量，寄存器类型变量与真实的硬件寄存器不同。
+- - integer：32位带符号整数型变量
+- - real：64位带符号实数型变量
+- - time：无符号时间变量
 - 向量
 - 数组
 - 参数
@@ -89,6 +88,8 @@ endmodule
 3. [Verilog赋值语句](https://blog.csdn.net/firstlai/article/details/52712042)
 4. [关于Verilog中的几种赋值语句](https://www.cnblogs.com/nanoty/archive/2012/10/21/2733017.html)
 5. [Verilog 初级入门概念讲解](https://blog.csdn.net/Born_/article/details/52903920)
+6. [Verilog中的数据类型](https://blog.csdn.net/wordwarwordwar/article/details/53731372)
+7.[Verilog数据类型](http://blog.sina.com.cn/s/blog_615047920100ih0k.html)
 
 # VHDL语言
 
