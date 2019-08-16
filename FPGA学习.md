@@ -33,6 +33,7 @@ endmodule
 - 向量
 - 数组
 - 参数
+- 强度
 ## 流程控制
 - 选择结构
 - - casex，将条件数值中的x、z均作为无关值
@@ -90,6 +91,8 @@ endmodule
 5. [Verilog 初级入门概念讲解](https://blog.csdn.net/Born_/article/details/52903920)
 6. [Verilog中的数据类型](https://blog.csdn.net/wordwarwordwar/article/details/53731372)
 7.[Verilog数据类型](http://blog.sina.com.cn/s/blog_615047920100ih0k.html)
+8.[附录 20Verilog 硬件描述语言参考4](http://read.pudn.com/downloads70/ebook/251634/%E9%99%84%E5%BD%95%20Verilog%20%E7%A1%AC%E4%BB%B6%E6%8F%8F%E8%BF%B0%E8%AF%AD%E8%A8%80%E5%8F%82%E8%80%834.pdf)
+9.[第5章 门级建模](http://gr.xjtu.edu.cn/c/document_library/get_file?p_l_id=1736655&folderId=1736675&name=DLFE-18899.pdf)
 
 # VHDL语言
 
