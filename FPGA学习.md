@@ -93,6 +93,8 @@ endmodule
 7.[Verilog数据类型](http://blog.sina.com.cn/s/blog_615047920100ih0k.html)
 8.[附录 20Verilog 硬件描述语言参考4](http://read.pudn.com/downloads70/ebook/251634/%E9%99%84%E5%BD%95%20Verilog%20%E7%A1%AC%E4%BB%B6%E6%8F%8F%E8%BF%B0%E8%AF%AD%E8%A8%80%E5%8F%82%E8%80%834.pdf)
 9.[第5章 门级建模](http://gr.xjtu.edu.cn/c/document_library/get_file?p_l_id=1736655&folderId=1736675&name=DLFE-18899.pdf)
+10.[关于generate用法的总结](https://www.cnblogs.com/nanoty/archive/2012/11/13/2768933.html)
+
 
 # VHDL语言
 
