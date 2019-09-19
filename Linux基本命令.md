@@ -119,3 +119,4 @@ Vi IMproved，一种升级版，在大多数Linux系统中都安装了Vim。
 4. [https://blog.csdn.net/ii1245712564/article/details/46496347](https://blog.csdn.net/ii1245712564/article/details/46496347)
 5. [编辑器之战 - 维基百科](https://zh.wikipedia.org/zh-hans/编辑器之战)
 6. [黑客 - 维基百科](https://zh.wikipedia.org/zh-hans/黑客)
+7. [chmod - 命令大全](https://man.linuxde.net/chmod)
