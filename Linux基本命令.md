@@ -23,16 +23,18 @@ cp 命令
 mkdir命令
 -p //p表示若无上层文件夹，则新建
 
+chmod命令
+- chmod 751 filename：给当前用户分配rwx(7)的权限，给同组分配-wx(5)的权限，给其他用户分配--x(1)的权限
+
 ```
 ## 其他
 - bash是一个命令处理器，是Linux的默认shell。
 - & // 连接命令
-## Gvim
-> Vim要求全部键盘操作，而GVim可用鼠标进行可视化操作，即GVim是Vim的图形化界面，可跨平台。
-### 特点
-- 竖线光标
-- 颜色丰富，高亮好看
-- 带菜单
+
+## Vi
+- 复杂的编辑操作可以使用多重功能基元的组合
+## Vim
+Vi IMproved，一种升级版，在大多数Linux系统中都安装了Vim。
 ### 普通模式  
 - Vim启动后的默认模式。
 #### 文件编辑
@@ -43,7 +45,7 @@ mkdir命令
 - 普通模式命令往往需要一个操作符结尾。例如普通模式命令"dd"删除当前行，但是第一个"d"的后面可以跟另外的移动命令来代替第二个"d"，比如用移动到下一行的"j"键就可以删除当前行和下一行。
 - 还可以指定命令重复次数，"2dd"（重复"dd"两次），和"dj"的效果是一样的。
 - `u`：undo，撤销上次操作
-- `^R`：redo，重做  
+- `^R/ctrl+r`：redo，重做  
 - `:↑` 选择上一条命令，在本页执行？
 - `:!!` 重复上一条系统命令
 - `:!↑` 选择上一条系统命令
@@ -57,8 +59,10 @@ mkdir命令
 - `%` 向前查找
 - `n`  下一个
 - `N`  上一个
-### 插入模式
+### 插入模式/命令模式?
+- `d` 半角？
 - `dd` 剪切
+- `dw` delete word 删除一个单词
 - `p/P` 在光标后/前粘贴
 - `y` 复制
 - 大多数按键都会向文本缓冲区中插入文本。
@@ -99,8 +103,19 @@ mkdir命令
 ### Ex模式
 - 这和命令行模式比较相似，在使用":visual"命令离开Ex模式前，可以一次执行多条命令。
 
+## Gvim
+> GVim是Vim的图形化界面，可跨平台.
+> Vim要求全部键盘操作，而GVim可用鼠标进行可视化操作。
+### 特点
+- 图形化界面
+- 竖线光标
+- 颜色丰富，高亮好看
+- 很好的支持鼠标和菜单
+
 ## 参考文献
 1. [Vim - 维基百科](https://zh.wikipedia.org/zh-hans/Gvim)
 2. [gvim常用命令](https://blog.csdn.net/randyfeng007/article/details/6581302)
 3. [GVIM同VIM的区别](https://blog.csdn.net/xiaolei05/article/details/19755083)
 4. [https://blog.csdn.net/ii1245712564/article/details/46496347](https://blog.csdn.net/ii1245712564/article/details/46496347)
+5. [编辑器之战 - 维基百科](https://zh.wikipedia.org/zh-hans/编辑器之战)
+6. [黑客 - 维基百科](https://zh.wikipedia.org/zh-hans/黑客)
