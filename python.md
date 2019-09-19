@@ -13,6 +13,15 @@
 - - 使用r可以让反斜杠不发生转义。 如 r"this is a line with \n" 则\n会显示，并不是换行。
 - - 没有单独的字符类型，一个字符就是长度为1的字符串
 - - 字符串不能改变。向一个索引位置赋值，比如word[0] = 'm'会导致错误。
+- - spilt()分割函数
+```
+txt = "Google#Runoob#Taobao#Facebook"
+# 第二个参数为 1，返回两个参数List
+txtList = txt.split("#", 1)
+#输出
+txtList = ['Google', 'Runoob#Taobao#Facebook']
+
+```
 ![](https://www.runoob.com/wp-content/uploads/2013/11/o99aU.png)
 - Tuple（元组）
 ```
@@ -48,6 +57,7 @@ tup2 = (20,) # 一个元素，需要在元素后添加逗号
 - - `//` 取整除
 - - `**` 幂
 - 逻辑
+- - and
 - 比较
 - - `==` 相等
 - 赋值
