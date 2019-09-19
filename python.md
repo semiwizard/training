@@ -105,3 +105,6 @@ sys.exit() 会抛出SystemExit异常，如果没有被捕获，python解释器�
 2. [向python脚本传递参数的方法](https://blog.csdn.net/BabyFish13/article/details/53769525)
 3. [Python逐行读取文件内容的三种方法](https://www.cnblogs.com/dcc001/p/5705438.html)
 4. [python逐行读写txt文件](https://blog.csdn.net/matrix_google/article/details/76861485)
+5. [保存网页 TypeError: must be str, not bytes](https://blog.csdn.net/gdp12315_gu/article/details/47314175)
+6. [保存网页 TypeError: must be str, not bytes](https://www.jb51.net/article/136166.htm)
+7. [Python PyH模块中文文档](http://hanxiaomax.github.io/trans/pyh-chinese-doc/)
