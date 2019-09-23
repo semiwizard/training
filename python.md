@@ -114,6 +114,8 @@ os.path.dirname(path)	返回纯文件路径
 os._exit() 会直接将python程序终止，之后的所有代码都不执行。
 sys.exit() 会抛出SystemExit异常，如果没有被捕获，python解释器将会退出，否则还会执行，可以捕获这个异常做些清理工作。比较优雅
 ## 传递参数
+### getopt模块
+### ~~~系统命令行参数列表~~~
 ```
 #脚本：
 import sys  #需要模块
@@ -144,3 +146,10 @@ test.py
 7. [Python PyH模块中文文档](http://hanxiaomax.github.io/trans/pyh-chinese-doc/)
 8. [Pyh模块+Bootstrap框架](https://www.cnblogs.com/1fengchen1/p/9440881.html)
 9. [os.path() 模块](https://www.runoob.com/python3/python3-os-path.html)
+
+
+## 回归测试
+1. [回归测试总结](https://blog.csdn.net/caiqcong/article/details/4172128)
+2. [软件测试 - 维基百科](https://zh.wikipedia.org/zh-hans/软件测试)
+3. [回归测试 - 维基百科](https://zh.wikipedia.org/zh-hans/回归测试)
+4. [自动化测试 - 维基百科](https://zh.wikipedia.org/zh-hans/自动化测试)
