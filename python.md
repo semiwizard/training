@@ -102,7 +102,11 @@ tup2 = (20,) # 一个元素，需要在元素后添加逗号
   一个模块被另一个程序第一次引入时，其主程序将运行。如果想在模块被引入时，模块中的某一程序块不执行，可以用__name__属性来使该程序块仅在该模块自身运行时执行。每个模块都有一个__name__属性，当其值是'__main__'时，表明该模块自身在运行，否则是被引入。
 ## 输入和输出
 ## 文件
-- 
+```
+os.path.abspath(path)	返回绝对路径（包含路径和文件名）
+os.path.basename(path)	返回纯文件名
+os.path.dirname(path)	返回纯文件路径
+```
 ## 面向对象
 ## 其他
 - `-h`参数查看各参数帮助信息
@@ -139,3 +143,4 @@ test.py
 6. [保存网页 TypeError: must be str, not bytes - Python使用pyh生成HTML文档](https://www.jb51.net/article/136166.htm)
 7. [Python PyH模块中文文档](http://hanxiaomax.github.io/trans/pyh-chinese-doc/)
 8. [Pyh模块+Bootstrap框架](https://www.cnblogs.com/1fengchen1/p/9440881.html)
+9. [os.path() 模块](https://www.runoob.com/python3/python3-os-path.html)
