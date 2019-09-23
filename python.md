@@ -110,12 +110,25 @@ tup2 = (20,) # 一个元素，需要在元素后添加逗号
 os._exit() 会直接将python程序终止，之后的所有代码都不执行。
 sys.exit() 会抛出SystemExit异常，如果没有被捕获，python解释器将会退出，否则还会执行，可以捕获这个异常做些清理工作。比较优雅
 ## 传递参数
-需要模块：sys
-参数个数：len(sys.argv)
-脚本名：    sys.argv[0]
-参数1：     sys.argv[1]
-参数2：     sys.argv[2]
-参数列表：sys.argv[1:]
+```
+#脚本：
+import sys  #需要模块
+
+print sys.argv  #
+print len(sys.argv) #参数个数
+print sys.argv[0] #脚本名
+print sys.argv[1:]  #参数列表
+
+#输入：
+$ python test.py 1212 232 3232
+
+#输出：
+['test.py', '1212', '232', '3232']  #
+4
+test.py
+['1212', '232', '3232']
+
+```
 
 ## 参考文献
 1. [Python3菜鸟教程](https://www.runoob.com/python3/python3-tutorial.html)
