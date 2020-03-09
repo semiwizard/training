@@ -104,11 +104,10 @@ tup2 = (20,) # 一个元素，需要在元素后添加逗号
 ## 输入和输出
 
 ### 传参
-- sys.argv
-- ~optparse~ 
+- ~sys.argv~
+- ~optparse~ (被弃用)
 - ~getopt~ 
-- argparse
-- configparser 解析配置文件
+- argparse （输入参数解析）+ configparser （解析配置文件）
 
 ```
 #sys.argv示例
@@ -128,6 +127,14 @@ $ python test.py 1212 232 3232
 test.py
 ['1212', '232', '3232']
 
+```
+```
+import argparse
+parser = argparse.ArgumentParser()
+# 短选项
+parser.add_argument("-v", "--verbose", help="increase output verbosity",
+                    action="store_true")
+parser.parse_args()
 ```
 
 ## 文件
@@ -156,6 +163,7 @@ sys.exit() 会抛出SystemExit异常，如果没有被捕获，python解释器�
 7. [Python PyH模块中文文档](http://hanxiaomax.github.io/trans/pyh-chinese-doc/)
 8. [Pyh模块+Bootstrap框架](https://www.cnblogs.com/1fengchen1/p/9440881.html)
 9. [os.path() 模块](https://www.runoob.com/python3/python3-os-path.html)
+10. [argparse -- 命令行选项、参数和子命令解析器¶](https://docs.python.org/zh-cn/3/library/argparse.html)
 
 
 ## 回归测试
