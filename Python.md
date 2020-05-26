@@ -143,6 +143,18 @@ os.path.abspath(path)	返回绝对路径（包含路径和文件名）
 os.path.basename(path)	返回纯文件名
 os.path.dirname(path)	返回纯文件路径
 ```
+#读文件
+f1 = open(prj_path, 'r+')
+1. f1.read()
+2. f1.readline()
+3. f1.readlines()
+#字符串匹配
+re.compile(pattern[, flags])  #用于编译生成一个正则表达式对象
+1. re.match(pattern, string, flags=0) #从字符串的起始位置开始
+2. re.search(pattern, string, flags=0)  #扫描整个字符串并返回第一个成功的匹配
+3. re.findall(string[, pos[, endpos]])
+4. re.sub(pattern, repl, string, count=0, flags=0)  #
+
 ## 面向对象
 ## 其他
 - `-h`参数查看各参数帮助信息
