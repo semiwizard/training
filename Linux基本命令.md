@@ -3,12 +3,9 @@
 
 ## 通配符
 ## 打包/压缩
-```
-# tar -zxvf Python-3.6.1.tgz
-# cd Python-3.6.1
-# ./configure
-# make && make install
-```
+tar [必要参数] [可选参数] [文件名] 
+- tar -cvf p.tar  #打包
+- tar -xvf p.tar ./   #解包
 ## bash
 ## shell
 ## 文件操作
