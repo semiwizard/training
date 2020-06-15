@@ -2,6 +2,16 @@
 - `#` 单行注释，`'''` 和 `"""` 多行注释
 - 缩进表示代码块，少用`TAB`？
 - `\` 语句换行，括号中不需要使用
+## 变量
+- isinstance 和 type 的区别：
+  type()不会认为子类是一种父类类型；
+  isinstance()会认为子类是一种父类类型。
+ - / 返回一个浮点数，// 返回一个整数
+ - 可为多个变量赋值，可连续赋值
+ - 在 python 中，类型属于对象，变量是没有类型的
+ - 在 python 中，strings, tuples, 和 numbers 是不可更改的对象，而 list,dict 等则是可以修改的对象。
+  不可变类型：变量赋值 a=5 后再赋值 a=10，这里实际是新生成一个 int 值对象 10，再让 a 指向它，而 5 被丢弃，不是改变a的值，相当于新生成了a。
+  可变类型：变量赋值 la=[1,2,3,4] 后再赋值 la[2]=5 则是将 list la 的第三个元素值更改，本身la没有动，只是其内部的一部分值被修改了。
 ## 标准数据类型
 - Number(数字)
 - - int (整数), 只有一种int长整型，没有 python2 中的 Long
@@ -22,12 +32,6 @@ txtList = txt.split("#", 1)
 txtList = ['Google', 'Runoob#Taobao#Facebook']
 
 ```
-![](https://www.runoob.com/wp-content/uploads/2013/11/o99aU.png)
-- Tuple（元组）
-```
-tup1 = ()    # 空元组
-tup2 = (20,) # 一个元素，需要在元素后添加逗号
-```
 - List（列表）
 - - del 删除
 - - 截取与拼接
@@ -36,21 +40,16 @@ tup2 = (20,) # 一个元素，需要在元素后添加逗号
 ![](https://www.runoob.com/wp-content/uploads/2013/11/list_slicing1.png)
 - Set（集合）
 - - 创建空集合必须用 set() 而不是 { }，因为 { } 是用来创建一个空字典。
+- Tuple（元组）
+```
+tup1 = ()    # 空元组
+tup2 = (20,) # 一个元素，需要在元素后添加逗号
+```
 - Dictionary（字典）
 - - 字典是一种映射类型，字典用 { } 标识，它是一个无序的 键(key) : 值(value) 的集合。
 - - 键(key)必须使用不可变类型。在同一个字典中，键必须是唯一的。
 - - 列表是有序的对象集合，字典是无序的对象集合。两者的区别：字典当中的元素通过`键`来存取，而不是偏移。
 - 数据类型转换
-## 变量
-- isinstance 和 type 的区别：
-  type()不会认为子类是一种父类类型；
-  isinstance()会认为子类是一种父类类型。
- - / 返回一个浮点数，// 返回一个整数
- - 可为多个变量赋值，可连续赋值
- - 在 python 中，类型属于对象，变量是没有类型的
- - 在 python 中，strings, tuples, 和 numbers 是不可更改的对象，而 list,dict 等则是可以修改的对象。
-  不可变类型：变量赋值 a=5 后再赋值 a=10，这里实际是新生成一个 int 值对象 10，再让 a 指向它，而 5 被丢弃，不是改变a的值，相当于新生成了a。
-  可变类型：变量赋值 la=[1,2,3,4] 后再赋值 la[2]=5 则是将 list la 的第三个元素值更改，本身la没有动，只是其内部的一部分值被修改了。
 ## 运算符
 - 算数
 - - `/` 浮点除
@@ -136,7 +135,6 @@ parser.add_argument("-v", "--verbose", help="increase output verbosity",
                     action="store_true")
 parser.parse_args()
 ```
-
 ## 文件
 ```
 os.path.abspath(path)	返回绝对路径（包含路径和文件名）
