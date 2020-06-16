@@ -31,6 +31,8 @@ chmod命令
 - bash是一个命令处理器，是Linux的默认shell。
 - & // 连接命令
 - touch 新建文件
+- du -h --max-depth=2 /home #查看指定目录下文件/夹大小
+- tree -h -L 4 #树形显示
 
 ## Vi
 - 复杂的编辑操作可以使用多重功能基元的组合
