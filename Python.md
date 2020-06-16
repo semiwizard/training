@@ -19,6 +19,7 @@
 - - float (浮点数), 如 1.23、3E-2
 - - complex (复数), 如 1.1 + 2.2j
 - String（字符串）
+- - 索引和截取，截取按[)计算，[0：n]可简写为[:n]
 - - 单双引号完全相同
 - - 使用r可以让反斜杠不发生转义。 如 r"this is a line with \n" 则\n会显示，并不是换行。
 - - 没有单独的字符类型，一个字符就是长度为1的字符串
@@ -26,15 +27,17 @@
 - - spilt()分割函数
 ```
 txt = "Google#Runoob#Taobao#Facebook"
-# 第二个参数为 1，返回两个参数List
+# 第二个参数表示分隔次数，返回两个参数List
 txtList = txt.split("#", 1)
 #输出
 txtList = ['Google', 'Runoob#Taobao#Facebook']
 
 ```
 - List（列表）
+- - 与字符串不同，列表元素可以改变
 - - del 删除
-- - 截取与拼接
+- - 截取[0：-1：步长)
+- - 拼接+操作符
 - - 嵌套
 - - 函数
 ![](https://www.runoob.com/wp-content/uploads/2013/11/list_slicing1.png)
