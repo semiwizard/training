@@ -146,9 +146,10 @@ os.path.dirname(path)	返回纯文件路径
 ```
 #读文件
 f1 = open(prj_path, 'r+')
-1. f1.read()
+1. f1.read() #读入到字符串
 2. f1.readline()
 3. f1.readlines()
+
 #字符串匹配
 re.compile(pattern[, flags])  #用于编译生成一个正则表达式对象
 1. re.match(pattern, string, flags=0) #从字符串的起始位置开始
