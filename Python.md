@@ -166,6 +166,9 @@ sys.exit() 会抛出SystemExit异常，如果没有被捕获，python解释器�
 ##爬虫
 - 爬取（requests）、分析（re）、存储
 
+## 模式
+MVC被认为是一种架构模式而不是一种设计模式，区别在于前者比后者的范畴更广。
+https://blog.csdn.net/Burgess_zheng/article/details/86762248#%C2%A0%20%C2%A0%20%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E5%88%86%E7%B1%BB
 
 ## 参考文献
 1. [Python3菜鸟教程](https://www.runoob.com/python3/python3-tutorial.html)
