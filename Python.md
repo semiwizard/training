@@ -151,10 +151,17 @@ f1 = open(prj_path, 'r+')
 3. f1.readlines()
 
 #字符串匹配
-re.compile(pattern[, flags])  #用于编译生成一个正则表达式对象
+
 1. re.match(pattern, string, flags=0) #从字符串的起始位置开始
-2. re.search(pattern, string, flags=0)  #扫描整个字符串并返回第一个成功的匹配
-3. re.findall(string[, pos[, endpos]])
+2. result = re.search(pattern, string, flags=0)  #扫描整个字符串，并返回第一个成功的匹配，失败返回None
+  result.group()  #匹配的整个字符串
+  result.group(1)  #第一个括号位置匹配的字符串
+  result.groups() #返回一个包含所有小组字符串的元组，从 1 到 所含的小组号。
+  result.start()  #匹配的字符串的起始下标
+  result.end()
+  result.span() #匹配的字符串的起始和结束下标（开区间）的元组
+3. re.compile(pattern[, flags])  #用于编译生成一个正则表达式对象
+  re.findall(string[, pos[, endpos]])  #返回list
 4. re.sub(pattern, repl, string, count=0, flags=0)  #
 
 ## 面向对象
