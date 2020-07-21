@@ -148,6 +148,7 @@ parser.parse_args()
 os.path.abspath(path)	返回绝对路径（包含路径和文件名）
 os.path.basename(path)	返回纯文件名
 os.path.dirname(path)	返回纯文件路径
+dirPath, fileName = os.path.split(os.path.realpath(__ file __)) #当前文件路径和文件名组成的元组
 ```
 #读文件
 f1 = open(prj_path, 'r+')
