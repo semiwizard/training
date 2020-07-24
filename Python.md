@@ -108,6 +108,17 @@ if None == value:
 - pip list：查看已安装的模块
 - __name__属性
   一个模块被另一个程序第一次引入时，其主程序将运行。如果想在模块被引入时，模块中的某一程序块不执行，可以用__name__属性来使该程序块仅在该模块自身运行时执行。每个模块都有一个__name__属性，当其值是'__main__'时，表明该模块自身在运行，否则是被引入。
+```
+>>> from datetime import datetime
+>>> now = datetime.now() # 获取当前datetime
+>>> print(now)
+2015-05-18 16:28:07.198690
+>>> print(type(now))
+<class 'datetime.datetime
+```
+注意到datetime是模块，datetime模块还包含一个datetime类，通过from datetime import datetime导入的才是datetime这个类。
+
+如果仅导入import datetime，则必须引用全名datetime.datetime。
 ## 输入和输出
 
 ### 传参
