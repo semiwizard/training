@@ -195,6 +195,9 @@ parser.add_argument("-v", "--verbose", help="increase output verbosity",
                     action="store_true")
 parser.parse_args()
 ```
+```
+#configparser
+```
 ## 文件
 ```
 os.path.abspath(path)	返回绝对路径（包含路径和文件名）
@@ -202,14 +205,17 @@ os.path.basename(path)	返回纯文件名
 os.path.dirname(path)	返回纯文件路径
 dirPath, fileName = os.path.split(os.path.realpath(__ file __)) #当前文件路径和文件名组成的元组
 ```
-#读文件
+## 读文件
 f1 = open(prj_path, 'r+')
 1. f1.read() #读入到字符串
 2. f1.readline()
 3. f1.readlines()
 
-#字符串匹配
-
+## 正则匹配
+pattern
+- ^$
+- \s
+- \S
 1. re.match(pattern, string, flags=0) #从字符串的起始位置开始
 2. result = re.search(pattern, string, flags=0)  #扫描整个字符串，并返回第一个成功的匹配，失败返回None
   result.group()  #匹配的整个字符串
@@ -221,6 +227,10 @@ f1 = open(prj_path, 'r+')
 3. re.compile(pattern[, flags])  #用于编译生成一个正则表达式对象
   re.findall(string[, pos[, endpos]])  #返回list
 4. re.sub(pattern, repl, string, count=0, flags=0)  #
+
+## html解析
+## 生成html
+- pyh模块
 
 ## 面向对象
 Python是完全面向对象的语言，函数、模块、数值、字符串都是对象；并且完全支持继承、重载、派生、多重继承。
