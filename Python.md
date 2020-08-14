@@ -1,8 +1,9 @@
-## 简介
+## 简介 
 有动态类型系统和垃圾回收功能，能自动管理内存使用，且支持面向对象、命令式、函数式和过程式编程等。
+
 ## 基本语法
 - `#` 单行注释，`'''` 和 `"""` 多行注释
-- `\` 用于语句换行，括号中不需要使用
+
 ## 代码风格
 - 官方文档：https://www.python.org/dev/peps/pep-0008/
 - 可读性：代码的读取次数比编写的次数多
@@ -44,6 +45,7 @@ __foobar__（双下划线开头双下划线结尾）：指那些包含在用户�
  - strings, tuples, 和 numbers 是不可更改的对象，而 list, dict 等则是可以修改的对象。
   不可变类型（对象）：变量赋值 a=5 后再赋值 a=10，这里实际是新生成一个 int 值对象 10，再让 a 指向它，而 5 被丢弃，不是改变a的值，相当于新生成了a。
   可变类型：变量赋值 la=[1,2,3,4] 后再赋值 la[2]=5 则是将 list la 的第三个元素值更改，本身la没有动，只是其内部的一部分值被修改了。
+  
 ## 标准数据类型
 - None  #空对象
 - Number(数字)
@@ -98,6 +100,7 @@ if None == value:
   print 'not find'
 ```
 - 数据类型转换
+
 ## 运算符
 ~, |, ^, &, <<, >>必须应用于整数
 - 算数
@@ -115,6 +118,7 @@ if None == value:
 - lamda匿名函数
 - 条件表达式：y if do else x
 - Python允许像数学的常用写法那样连着写两个比较运行符。比如a < b < c与a < b and b < c等价。
+
 ## 解释器
 - 脚本式编程
   在Linux/Unix系统中，可以在脚本顶部添加`#! /usr/bin/env python3`命令，让Python脚本可以像SHELL脚本一样可直接执行
@@ -122,6 +126,7 @@ if None == value:
   $ chmod +x hello.py
   执行以下命令：
   ./hello.py
+  
 ## 函数
 - python 函数的参数传递：
   不可变类型：类似 c++ 的值传递，如 整数、字符串、元组。如fun（a），传递的只是a的值，没有影响a对象本身。比如在 fun（a）内部修改 a 的值，只是修改另一个复制的对象，不会影响 a 本身。
@@ -143,6 +148,7 @@ if None == value:
 - - G （Global） 全局作用域
 - - B （Built-in） 内置作用域（内置函数所在模块的范围）
 - - 以 L –> E –> G –>B 的规则查找，即：在局部找不到，便会去局部外的局部找（例如闭包），再找不到就会去全局找，再者去内置中找。
+
 ## 模块 
 - pip list：查看已安装的模块
 - yolk -l
@@ -160,6 +166,7 @@ if None == value:
 注意到datetime是模块，datetime模块还包含一个datetime类，通过from datetime import datetime导入的才是datetime这个类。
 
 如果仅导入import datetime，则必须引用全名datetime.datetime。
+
 ## 输入和输出
 
 ### 传参
@@ -198,6 +205,7 @@ parser.parse_args()
 ```
 #configparser
 ```
+
 ## 文件
 ```
 os.path.abspath(path)	返回绝对路径（包含路径和文件名）
@@ -205,7 +213,9 @@ os.path.basename(path)	返回纯文件名
 os.path.dirname(path)	返回纯文件路径
 dirPath, fileName = os.path.split(os.path.realpath(__ file __)) #当前文件路径和文件名组成的元组
 ```
-## 读文件
+##查找文件
+
+##读文件
 f1 = open(prj_path, 'r+')
 1. f1.read() #读入到字符串
 2. f1.readline()
@@ -229,12 +239,14 @@ pattern
 4. re.sub(pattern, repl, string, count=0, flags=0)  #
 
 ## html解析
+
 ## 生成html
 - pyh模块
 
 ## 面向对象
 Python是完全面向对象的语言，函数、模块、数值、字符串都是对象；并且完全支持继承、重载、派生、多重继承。
 当定义对象方法时，必须显式地定义第一个参数，一般该参数名都使用self，用于访问对象的内部数据。这里的self相当于C++, Java里面的this变量，但是我们还可以使用任何其它合法的参数名，比如this和mine等，self与C++,Java里面的this不完全一样，它可以被看作是一个习惯性的用法，我们传入任何其它的合法名称都行
+
 ## 其他
 - `-h`参数查看各参数帮助信息
 - 有两种退出方式：
