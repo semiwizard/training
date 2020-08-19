@@ -2,7 +2,7 @@
 - 容器
 > 封装常用数据结构的模板类
 - - 序列容器
-- - - <array>: array<T, N>
+ - `<array>`: array<T, N>
 - - - <vector>: vector<T>
 - - - <deque>: deque<T>
 - - - - stack<T> 容器适配器
