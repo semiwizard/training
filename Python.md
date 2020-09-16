@@ -211,6 +211,9 @@ parser.parse_args()
 os.path.abspath(path)	返回绝对路径（包含路径和文件名）
 os.path.basename(path)	返回纯文件名
 os.path.dirname(path)	返回纯文件路径
+
+os.path.realpath(__ file __) #当前脚本文件的路径
+os.getcwd()  #当前脚本的执行位置
 dirPath, fileName = os.path.split(os.path.realpath(__ file __)) #当前文件路径和文件名组成的元组
 ```
 ##查找文件
